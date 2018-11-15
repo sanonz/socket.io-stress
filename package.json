@@ -1,0 +1,17 @@
+{
+  "name": "socket-io",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^3.1.9",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./stress.js 500"
+  },
+  "devDependencies": {
+    "pidusage": "^2.0.17"
+  }
+}
